@@ -3,19 +3,19 @@
 body {
     background-color: #f59cc3;
     height: 350px;
-    width: 600px;
+    width: 400px;
     color: white;
 }
 
 img {
-    width: 15%;
+    width: 13%;
     float: left;
 }
 
 .title{
    
     display: inline-block;
-    padding-left: 30px;
+    padding-left: 15px;
     font-size: large;
     font-family: 'Comfortaa','Roboto', sans-serif;
 
@@ -23,7 +23,7 @@ img {
 }
 
 .Reload_button{
-    padding-top: 40px;
+    padding-top: 20px;
     margin-left: 5px;
     border-radius: 4px;
     font-family: 'Comfortaa','Roboto', sans-serif;
@@ -34,6 +34,36 @@ img {
     font-size: 16px;
 }
 
+#button_buy{
+    font-family: 'Comfortaa','Roboto', sans-serif;
+    font-size: 16px;
+    align-items: center;
+}
+
 ul li{
     font-size:25px;
+    margin-bottom: 15px;
    }
+
+hr {
+    border: 2;
+	border-top: 1px solid white;
+}
+
+.buy{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.btn_buy {
+    border: none;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #a04ace;
+    font-size: 16px;
+    
+}
